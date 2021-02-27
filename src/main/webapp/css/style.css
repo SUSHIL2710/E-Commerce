@@ -1,0 +1,91 @@
+/*html, body{
+    font-family: 'Montserrat', sans-serif;
+}*/
+.custom-bg{
+    background: #1a237e!important;
+}
+
+.admin .card{
+    border: 1px solid #1a237e;
+}
+
+.admin .card:hover{
+    background: #e2e2e2;
+    cursor: pointer;
+}
+
+.list-group-item.active{
+    background: #673ab7!important;
+    border-color: #673ab7!important;
+}
+
+.about-title h1 {color: #535353; font-size:45px;font-weight:600;}
+.about-title span {color: #AF0808; font-size:45px;font-weight:700;}
+.about-title h3 {color: #535353; font-size:23px;margin-bottom:24px;}
+.about-title p {color: #7a7a7a;line-height: 1.8;margin: 0 0 15px;}
+.about-paddingB {padding-bottom: 12px;}
+.about-img {padding-left: 57px;}
+
+/* Social Icons */
+.about-icons {margin:48px 0px 48px 0px ;}
+.about-icons i{margin-right: 10px;padding: 0px; font-size:35px;color:#323232;box-shadow: 0 0 3px rgba(0, 0, 0, .2);}
+.about-icons li {margin:0px;padding:0;display:inline-block;}
+#social-fb:hover {color: #3B5998;transition:all .001s;}
+ #social-tw:hover {color: #4099FF;transition:all .001s;}
+ #social-gp:hover {color: #d34836;transition:all .001s;}
+ #social-em:hover {color: #f39c12;transition:all .001s;}
+
+ .discount-label {
+     font-size: 15px!important;
+     font-family: italic !important;
+     text-decoration: line-through;
+ }
+ 
+ .discount{
+     font-size: 12px!important;
+     font-family: italic !important;
+ }
+ 
+ /*--toast---*/
+ #toast {
+     min-width: 300px;
+     position: fixed;
+     bottom: 30px;
+     left: 50px;
+     margin-left: -120px;
+     background: #333;
+     padding: 15px;
+     color: white;
+     text-align: center;
+     z-index: 1;
+     font-size: 18px;
+     visibility: hidden;
+     box-shadow: 0px 0px 100px #000;
+ }
+ 
+ #toast.display{
+     visibility: visible;
+     animation: fadeIn 0.5s, fadeOut 0.5s 2.5s;
+ }
+ 
+ @keyframes fadeIn{
+     from{
+         bottom: 0;
+         opacity: 0;
+     }
+     to{
+         bottom: 30px;
+         opacity: 1;
+     }
+ }
+ 
+ @keyframes fadeOut{
+     from{
+         bottom: 30px;
+         opacity: 1;
+     }
+     to{
+         bottom: 0;
+         opacity: 0;
+     }
+ }
